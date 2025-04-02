@@ -1,0 +1,8 @@
+<launch>
+	<!include file="$(find hunter_base)/launch/hunter_base.launch" />
+	<!include file="$(find hunter_bringup)/launch/hunter_teleop_keyboard.launch" />
+	<!include file="$(find swift_pgm)/launch/swift_nav_ROS.launch" />
+	<!node pkg="rslidar_sdk" name="rslidar_sdk_node" type="rslidar_sdk_node" output="screen">
+    	<!param name="config_path" value=""/>
+  	</node>
+</launch>

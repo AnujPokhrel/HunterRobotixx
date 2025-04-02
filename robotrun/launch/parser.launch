@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find spot_move_base)/launch/spot_move_base_sim.launch" />
+  <node name="node_parser" pkg="robotrun" type="run_robot_test.py" output="screen" required="true"/> 
+  </launch>
