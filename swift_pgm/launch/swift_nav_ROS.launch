@@ -1,0 +1,18 @@
+<launch>
+    <!-- Start connection to SwiftNav PGM and output proper data -->
+    <node pkg="swift_pgm" type="pgm_node.py" name="pgm_output" output="screen" >
+        <!-- You should specify the IP and port for the system -->
+        <param name="swift_IP" value="192.168.42.193"/>
+        <param name="swift_port" value="55556" />
+    </node>
+
+    <!-- Start up the other nodes -->
+    <!-- <node pkg="swift_pgm" type="gps_node.py" name="gps_output" output="screen" /> -->
+    <!-- <node pkg="swift_pgm" type="heading_node.py" name="heading_output" output="screen" > -->
+        <!-- You should specify the IP and port for the system -->
+        <!-- <param name="swift_IP" value="192.168.42.152"/> -->
+    <!-- </node> -->
+    <node pkg="swift_pgm" type="imu_raw_node.py" name="imu_raw_output" output="screen" />
+    <!-- <node pkg="swift_pgm" type="imu_abs_node.py" name="imu_abs_output" output="screen" /> -->
+
+</launch>

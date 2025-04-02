@@ -1,0 +1,19 @@
+<launch>
+    <!-- <node pkg="can0" type="rosrun hunter_bringup bringup_can2usb.bash" name="bringup_can2usb" /> -->
+    <!-- <node name="bringup_can2usb" pkg="hunter_bringup" type="bringup_can2usb.bash" output="screen"/> -->
+    <!-- start base and load model -->
+    <include file="$(find hunter_base)/launch/hunter_base.launch">
+        <arg name="port_name" default="can0" />
+        <arg name="simulated_robot" default="false" />
+        <arg name="publish_tf" default="true" />
+    </include>
+
+	<!-- <include file="$(find swift_pgm)/launch/swift_nav_ROS.launch" /> -->
+	<!-- <node pkg="rslidar_sdk" name="rslidar_sdk_node" type="rslidar_sdk_node" output="screen">
+    	<!param name="config_path" value=""/>
+  	</node> -->
+    <!-- <include file="$(find rslidar_sdk)/launch/start.launch" /> -->
+    <!-- <include file="$(find zed_wrapper)/launch/zed2.launch" /> -->
+    <!-- <include file="$(find ublox_gps)/launch/ublox_zed-f9p.launch" /> -->
+
+</launch>

@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/austin/Documents/tmp_ws/devel/include/**",
+        "/home/austin/Documents/ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/austin/Documents/ws/src/imu_tools/imu_complementary_filter/include/**",
+        "/home/austin/Documents/ws/src/imu_tools/imu_filter_madgwick/include/**",
+        "/home/austin/Documents/tmp_ws/src/ethz_piksi_ros/libsbp_ros_msgs/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_accelerometer/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_analog_inputs/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_analog_outputs/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_api/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_digital_inputs/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_digital_outputs/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_gyroscope/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_high_speed_encoder/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_magnetometer/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_motors/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_spatial/include/**",
+        "/home/austin/Documents/ws/src/phidgets_drivers/phidgets_temperature/include/**",
+        "/home/austin/Documents/tmp_ws/src/ethz_piksi_ros/piksi_multi_cpp/include/**",
+        "/home/austin/Documents/ws/src/rosserial/rosserial_server/include/**",
+        "/home/austin/Documents/ws/src/rosserial/rosserial_test/include/**",
+        "/home/austin/Documents/tmp_ws/src/ethz_piksi_ros/rqt_gps_rtk_plugin/include/**",
+        "/home/austin/Documents/ws/src/sentinel_tf2/include/**",
+        "/home/austin/Documents/ws/src/swift_pgm/include/**",
+        "/home/austin/Documents/ws/src/ugv_sdk/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

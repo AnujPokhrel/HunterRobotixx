@@ -1,0 +1,20 @@
+# Rover-specific moving base parameters
+frame_id: rover
+publish:
+  nav:
+    pvt: true
+    relposned: true
+    rate: 2 # 1
+    velned: true
+    sat: true
+
+  # rxm:
+  #   rawx: true
+
+device: /dev/ttyACM1
+# frame_id: gps
+
+uart1:
+  baudrate: 115200
+
+config_on_startup: false
